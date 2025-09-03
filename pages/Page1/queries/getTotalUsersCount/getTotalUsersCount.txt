@@ -1,1 +1,1 @@
-SELECT count(1) FROM public."users";
+SELECT count(1) FROM public."users"  where (country = {{Country_filter.selectedOptionValue}} OR {{Country_filter.selectedOptionValue}}='')

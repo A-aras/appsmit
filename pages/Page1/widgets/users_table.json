@@ -1,14 +1,14 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowAddNewRow": true,
-  "animateLoading": true,
+  "animateLoading": false,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
   "bottomRow": 34,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
-  "canFreezeColumn": true,
+  "canFreezeColumn": false,
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -122,7 +122,7 @@
       "key": "onPageSizeChange"
     }
   ],
-  "enableClientSideSearch": true,
+  "enableClientSideSearch": false,
   "endOfData": false,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -130,8 +130,8 @@
   "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
   "isSortable": true,
-  "isVisible": true,
-  "isVisibleDownload": true,
+  "isVisible": false,
+  "isVisibleDownload": false,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": false,

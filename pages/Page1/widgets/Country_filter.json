@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "\"\"",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -31,7 +31,7 @@
     }
   ],
   "isDisabled": false,
-  "isFilterable": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
@@ -50,8 +50,8 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onFilterUpdate": "{{getUsers.run({\n\n});}}",
-  "onOptionChange": "{{getCountry.run({\n  \n});}}",
+  "onFilterUpdate": "{{getUsers.run({});}}",
+  "onOptionChange": "{{getUsers.run()}}",
   "optionLabel": "country",
   "optionValue": "country",
   "parentColumnSpace": 16.5,
